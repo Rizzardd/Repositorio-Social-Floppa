@@ -1,0 +1,14 @@
+algoritmo "nomeInverso"
+
+var
+nome, sob, t: caractere
+inicio
+escreval ("informe seu primeiro nome: ")
+leia (nome)
+escreval ("informe seu sobrenome: ")
+leia (sob)
+t <- sob
+sob <- nome
+nome <- t
+escreva ("seu nome na ordem inversa é: ", t , sob)
+fimalgoritmo
