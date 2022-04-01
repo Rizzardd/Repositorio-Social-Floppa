@@ -10,5 +10,5 @@ leia (sob)
 t <- sob
 sob <- nome
 nome <- t
-escreva ("seu nome na ordem inversa é: ", t," ", sob)
+escreva ("seu nome na ordem inversa é: ", t ," ", sob)
 fimalgoritmo
