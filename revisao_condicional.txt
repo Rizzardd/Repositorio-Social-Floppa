@@ -1,0 +1,23 @@
+algoritmo "revisao_condicional"
+
+var
+sexo : caractere
+idade: inteiro
+inicio
+escreval ("informe o seu sexo informando F para feminino e M para masculino: ")
+leia (sexo)
+escreval ("informe a sua idade: ")
+leia (idade)
+se (idade < 18) entao
+escreval ("Bem Vinda, Criança!")
+senao
+se (idade >= 18) e (sexo = "F") entao
+escreval ("Bem Vinda, Senhora!")
+fimse
+se (idade >= 18) e (sexo = "M") entao
+escreval ("Bem Vindo, Senhor")
+senao
+escreva ("Bem Vindo!!!")
+fimse
+fimse
+fimalgoritmo
