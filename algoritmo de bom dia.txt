@@ -1,0 +1,28 @@
+algoritmo "algoritmo bom dia"
+
+var
+sexo : caractere
+idade: inteiro
+inicio
+escreval ("informe o seu sexo informando F para feminino e M para masculino: ")
+leia (sexo)
+escreval ("informe a sua idade: ")
+leia (idade)
+se (sexo = "M") entao
+se (idade < 18) entao
+escreval("Bom dia menino")
+senao
+escreval ("Bom dia senhor")
+fimse
+fimse
+se (sexo = "F") entao
+se (idade < 18) entao
+escreval("Bom dia menina")
+senao
+escreval ("Bom dia senhora")
+fimse
+fimse
+se (sexo <> "F") e (sexo <> "M") entao
+escreval ("Bom dia")
+fimse
+fimalgoritmo
