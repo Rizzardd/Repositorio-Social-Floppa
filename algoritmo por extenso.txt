@@ -1,0 +1,42 @@
+algoritmo "extenso"
+
+var
+n1: inteiro
+
+inicio
+escreval ("escreva um numero de 1 a 9: ")
+leia (n1)
+se (n1 = 0) entao
+escreval ("zero")
+fimse
+se (n1 = 1)entao
+escreval ("um")
+fimse
+se (n1 = 2) entao
+escreval ("dois")
+fimse
+se (n1 = 3) entao
+escreval ("três")
+fimse
+se (n1 = 4) entao
+escreval ("quatro")
+fimse
+se (n1 = 5) entao
+escreval ("cinco")
+fimse
+se (n1 = 6) entao
+escreval ("seis")
+fimse
+se (n1 = 7) entao
+escreval ("sete")
+fimse
+se (n1 = 8) entao
+escreval ("oito")
+fimse
+se (n1 = 9)entao
+escreval ("nove")
+fimse
+se (n1 > 9) entao
+escreval ("maior que 9")
+fimse
+fimalgoritmo
