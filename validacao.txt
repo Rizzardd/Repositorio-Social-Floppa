@@ -1,0 +1,19 @@
+algoritmo "validação"
+
+var
+sexo: caractere
+
+inicio
+escreval ("informe o seu sexo: ")
+leia(sexo)
+enquanto (sexo <> "F") e (sexo <> "M") faca
+escreval("sexo inválido.")
+escreval ("informe o seu sexo: ")
+leia(sexo)
+fimenquanto
+se (sexo = "F") entao
+escreval ("Bom Dia, Senhora!")
+senao
+escreval ("Bom Dia, Senhor!")
+fimse
+fimalgoritmo
