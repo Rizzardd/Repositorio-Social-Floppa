@@ -1,0 +1,24 @@
+algoritmo "impar e par"
+
+var
+num, contp, conti: inteiro
+opcao: caractere
+
+inicio
+opcao <- "S"
+enquanto (opcao = "S") faca
+   escreval ("informe um numero: ")
+   leia (num)
+   se (num mod 2 = 0) entao
+   contp <- contp +1
+   escreval (num, " é par.")
+   senao
+   escreval (num, " é impar.")
+   conti <- conti +1
+   fimse
+   escreval ("deseja inserir outro número?")
+   leia (opcao)
+fimenquanto
+escreval ("você informou", contp, " pares", conti, " impares")
+escreval ("fim do calculo.")
+fimalgoritmo
