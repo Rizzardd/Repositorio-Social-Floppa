@@ -1,0 +1,17 @@
+algoritmo "Vetores"
+
+var
+nome: vetor [1..40] de caractere
+nf,ni:inteiro
+inicio
+escreval ("informe a quantidade de convidados: ")
+leia (nf)
+para ni de 1 ate nf faca
+escreval("informe o nome do convidado: ", ni)
+leia(nome[ni])
+fimpara
+para ni de 1 ate nf faca
+escreval("os convidados foram: ", nome[ni])
+fimpara
+
+fimalgoritmo
