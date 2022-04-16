@@ -1,0 +1,28 @@
+Algoritmo "Aniversario"
+
+Var
+
+nome: vetor [1..50] de caractere
+opcao: caractere
+dataAniversario: vetor [1..50] de inteiro
+contador, limite: inteiro
+
+Inicio
+opcao <- "S"
+enquanto opcao = "S" faca
+contador <- contador +1
+escreval ("informe o nome da pessoa: ")
+leia (nome[contador])
+escreval ("informe a idade: ")
+leia (dataAniversario[contador])
+escreval ("deseja informar outra pessoa?")
+leia (opcao)
+fimenquanto
+escreval ("lista de pessoas: ")
+limite <- contador
+contador <- 1
+enquanto (contador <= limite) faca
+escreval ("-", nome[contador], " nasceu em", (2022 - dataAniversario[contador]))
+contador <- contador +1
+fimenquanto
+Fimalgoritmo
