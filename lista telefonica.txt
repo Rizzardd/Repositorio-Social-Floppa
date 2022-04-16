@@ -1,20 +1,28 @@
 Algoritmo "lista telefonica"
 
 Var
-nome, opcao: caractere
-numero: inteiro
 
+nome: vetor [1..50] de caractere
+opcao: caractere
+numero: vetor [1..50] de inteiro
+contador, limite: inteiro
 
 Inicio
 opcao <- "S"
 enquanto opcao = "S" faca
+contador <- contador +1
 escreval ("informe o nome do contato: ")
-leia (nome)
+leia (nome[contador])
 escreval ("informe o numero do contato: ")
-leia (numero)
+leia (numero[contador])
 escreval ("deseja adicionar mais um contato?")
 leia (opcao)
 fimenquanto
 escreval ("os contatos são: ")
-escreval ("-", nome, ",", numero)
+limite <- contador
+contador <- 1
+enquanto (contador <= limite) faca
+escreval ("-", nome[contador], ",", numero[contador])
+contador <- contador +1
+fimenquanto
 Fimalgoritmo
