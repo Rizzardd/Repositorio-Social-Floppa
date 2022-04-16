@@ -1,0 +1,20 @@
+Algoritmo "lista telefonica"
+
+Var
+nome, opcao: caractere
+numero: inteiro
+
+
+Inicio
+opcao <- "S"
+enquanto opcao = "S" faca
+escreval ("informe o nome do contato: ")
+leia (nome)
+escreval ("informe o numero do contato: ")
+leia (numero)
+escreval ("deseja adicionar mais um contato?")
+leia (opcao)
+fimenquanto
+escreval ("os contatos são: ")
+escreval ("-", nome, ",", numero)
+Fimalgoritmo
