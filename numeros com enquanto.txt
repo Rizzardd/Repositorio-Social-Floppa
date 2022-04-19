@@ -1,0 +1,14 @@
+algoritmo "contador"
+
+var
+n1, contador: inteiro
+
+inicio
+escreval ("informe um numero maior que 1: ")
+leia (n1)
+contador <- 0
+enquanto contador < n1 faca
+contador <- contador +1
+escreval (contador)
+fimenquanto
+fimalgoritmo

@@ -1,0 +1,27 @@
+algoritmo "multiplicação"
+
+var
+num1, num2: real
+opcao: caractere
+
+inicio
+escreval ("informe o primeiro numero: ")
+leia (num1)
+escreval ("informe o segundo numero: ")
+leia (num2)
+escreval ("a multiplicação entre os dois números é:", num1 * num2, ".")
+escreval ("deseja fazer outro cálculo?")
+leia (opcao)
+se (opcao = "S") entao
+   enquanto (opcao = "S") faca
+      escreval ("informe o primeiro numero: ")
+      leia (num1)
+      escreval ("informe o segundo numero: ")
+      leia (num2)
+      escreval ("a multiplicação entre os dois números é:", num1 * num2, ".")
+      escreval ("deseja fazer outro cálculo?")
+      leia (opcao)
+   fimenquanto
+fimse
+escreval ("fim do calculo.")
+fimalgoritmo

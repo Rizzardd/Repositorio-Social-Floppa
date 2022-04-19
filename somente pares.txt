@@ -1,0 +1,23 @@
+algoritmo "somente pares"
+
+var
+contador,limite: inteiro
+num: vetor [1..50] de inteiro
+
+inicio
+escreval("Quantos numeros deseja informar?")
+leia(limite)
+enquanto (contador < limite)faca
+   contador <- contador +1
+   escreval ("informe o ", contador," número")
+   leia(num[contador])
+fimenquanto
+contador <- 1
+escreval("os numeros pares são")
+enquanto (contador <= limite) faca
+   se (num[contador] mod 2 = 0) entao
+      escreval(num[contador])
+   fimse
+   contador <- contador + 1
+fimenquanto
+fimalgoritmo

@@ -1,0 +1,31 @@
+algoritmo "ordemNumeros2"
+
+var
+n1, n2, n3: inteiro
+
+inicio
+escreval ("informe o primeiro numero: ")
+leia (n1)
+escreval ("informe o segundo numero: ")
+leia (n2)
+escreval ("informe o terceiro numero: ")
+leia (n3)
+se (n3 < n2) e (n2 < n1) entao
+escreval ("os numeros são: ", n3 ,n2, n1)
+fimse
+se (n2 < n1) e (n1 < n3) entao
+escreval ("os numeros são: ", n2 ,n1, n3)
+fimse
+se (n3 < n1) e (n1 < n2) entao
+escreval ("os numeros são: ", n3 ,n1, n2)
+fimse
+se (n2 < n3) e (n3 < n1) entao
+escreval ("os numeros são: ", n2 ,n3, n1)
+fimse
+se (n1 < n3) e (n3 < n2) entao
+escreval ("os numeros são: ", n1 ,n3, n2)
+fimse
+se (n1 < n2) e (n2 < n3) entao
+escreval ("os numeros são: ", n1 ,n2, n3)
+fimse
+fimalgoritmo

@@ -1,0 +1,17 @@
+algoritmo "ordemNumeros"
+
+var
+n1, n2: inteiro
+
+inicio
+escreval ("informe o primeiro numero: ")
+leia (n1)
+escreval ("informe o segundo numero: ")
+leia (n2)
+se (n1> n2) entao
+escreval ("os numeros são: ", n2 ,n1)
+senao
+escreval("os numeros são: ", n1, n2)
+fimse
+
+fimalgoritmo

@@ -1,0 +1,18 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro contador
+		contador = 1
+		enquanto (contador <= 10) {
+		escreva ("ola pessoal ", contador, "\n")
+		contador = contador +1
+		
+		
+		}
+	}
+}
+
+
+(feito no portugol studio)

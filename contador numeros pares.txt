@@ -1,0 +1,11 @@
+algoritmo "contador"
+
+var
+contador: inteiro
+
+inicio
+enquanto contador <20 faca
+contador <- contador +2
+escreval (contador)
+fimenquanto
+fimalgoritmo
