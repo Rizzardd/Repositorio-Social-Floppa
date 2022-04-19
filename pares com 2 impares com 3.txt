@@ -1,0 +1,21 @@
+algoritmo "par com 2, impar com 3"
+
+var
+num : vetor [1..50] de inteiro
+cont, ni,limite: inteiro
+inicio
+escreval ("quantos números deseja informar?: ")
+leia (limite)
+para cont de 1 ate limite faca
+   escreval("informe o numero")
+   leia (num[cont])
+fimpara
+escreval ("Resultado:")
+para cont de 1 ate limite faca
+se num[cont] mod 2 = 0 entao
+   escreval (num[cont] * 2)
+senao
+   escreval (num[cont] * 3)
+fimse
+fimpara
+fimalgoritmo
