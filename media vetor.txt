@@ -1,0 +1,17 @@
+algoritmo "mediaVetor"
+var
+num:vetor [1..50] de inteiro
+cont,limite,soma:inteiro
+inicio
+escreval("Quantos números deseja informar?")
+leia (limite)
+cont <- 1
+enquanto cont <= limite faca
+escreval ("Escreva o ",cont,"° número")
+leia (num[cont])
+soma <- soma + num[cont]
+cont <- cont + 1
+fimenquanto
+escreval ("O média é:")
+escreval (soma \ limite)
+fimalgoritmo
